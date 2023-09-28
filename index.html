@@ -1,59 +1,81 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8"/>
-    <title>Denezhnikova EE</title>
-</head>
-<hr>
-    <table cellspacing="15">
-        <tr>
-            <td><img src="avatar.jpeg"width="150" alt="тут моё фото" /></td>
-            <td><h1>Денежникова Евгения</h1></td>
-        </tr>
-    </table>
-    
-        <p></p>
-        <hr>
-        <h3>Мои социальные сети</h3>
-        <ul>
-            <li><a href="https://www.vk.com/id33183055"target="_blank">Vk</a></li>
-        </ul>
-        <h3>Мои хобби</h3>
-        <ol>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8"/>
+            <title>Denezhnikova EE</title>
+            <link href="styles.css" rel="stylesheet" />
+         </head>
+    <body>
+    <div class="container">
+    <div class="info">
+    <img src="avatar.jpeg" alt="тут моё фото" id="avatar" />
+
+    <div class="info-text">
+         <h1>Денежникова Евгения</h1>
+                            
+         <h4>Мои социальные сети</h4>
+    <a href="https://www.vk.com/id33183055"target="_blank">Vk</a>
+        </div>
+    </div>
+                            
+    <div class="card bg-green">   
+         <h3>Мои хобби</h3>
+         <ol class="list">
             <li>Рисование</li>
             <li>Путешествия</li>
             <li>Автомобили</li>
-        </ol>
-        
+         </ol>
+     </div>
+
+     <div class="card bg-yellow">
         <h2>Онлайн курсы</h2>
-        <a href="Онлайн курсы.html">Посмотреть список</a>
-        
-        <h2>Youtube курсы</h2>
-        <a href="youtube.html">Посмотреть список</a>
-
-        <hr>
-        <h2>Связаться со мной</h2>
-         <form action="/">
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name"
-            placeholder="Введите ваше имя...">
-            
-            <br>
-
-            <label for="email">Ваш email:</label>
-            <input type="email" id="email"
-            placeholder="Введите email...">
-            
-            <br>
-
-            <label for="text">Ваше сообщение:</label>
-            
-            <br>
-            <textarea id="text" rows="2" cols="25"></textarea>
-        
-            <br>
-            <input type="submit" value="Связаться">
-         </form>
-                          
-</body>
-</html>
+        <ul type="square">
+            <li><a href="https://code-basics.com/ru/languages/python"target="_blank">Kурс по Python для начинающих</a></li>
+            <li><a href="https://code-basics.com/ru/languages/html"target="_blank">Kурс по HTML: обучение html верстке для начинающих</a></li>
+            <li><a href="https://code-basics.com/ru/languages/css"target="_blank">Kурс CSS: онлайн обучение с нуля</a></li>
+            </ul>
+            <h4>В процессе изучения:</h4>
+            <ul type="circle">
+                <li><a href="https://code-basics.com/ru/languages/javascript">https://code-basics.com/ru/languages/javascript</a></li>
+                </ul>
+            </div>
+            <div class="card bg-red">    
+                <h2>Youtube курсы</h2>
+                <ul class="link-list">
+                <li><a href="https://www.youtube.com/watch?v=DOEtVdkKwcU"target="_blank">Html для Начинающих - Практический Курс</a></li>
+                 <li><a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=1419s"target="_blank">CSS для Начинающих - Практический Курс</a></li>
+                 </ul>
+                    </div>
+                    <div class="contact">
+                        <h2>Связаться со мной</h2>
+                            <div action="/">
+                                <div class="row">
+                                <div class="form-group">
+                                <label for="name">Ваше имя:</label>
+                                <input type="text" id="name"
+                                placeholder="Введите ваше имя...">
+                                
+                                </div>
+                                <div class="form-group">
+                                <label for="email">Ваш email:</label>
+                                <input type="email" id="email"
+                                placeholder="Введите email...">
+                            </div>
+                                </div>
+                            <div class="form-group">
+                                <label for="text">Ваше сообщение:</label>
+                                
+                                <textarea id="text" rows="2" cols="15"></textarea>
+                            </div>
+                                
+                                <input class="btn" type="submit" value="Связаться">
+                                                    
+                            </form>
+                        </div>
+                        <div class="position">
+                            <div class="box"></div>
+                            </div>
+                    </div>   
+                    <div style="margin-bottom: 500px;"</div>         
+                    </body>
+                    </html>

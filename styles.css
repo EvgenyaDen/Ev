@@ -17,11 +17,12 @@ a:active {
 }
 
 a:visited {
-   color: rgb(92, 60, 189);
+   color: rgb(81, 53, 165);
 }
 
  h1{
     color: rgb(58, 14, 14);
+    
  }
 
  #avatar {
@@ -63,21 +64,24 @@ a:visited {
       padding-top: 30px;
 }
 
+.bg-orange {
+   background: rgb(241, 215, 165);
+}
+
 .bg-yellow {
-   background: rgb(236, 236, 208);
+   background: rgb(241, 241, 194);
 }
 
 .bg-red {
-   background: rgb(245, 231, 231);
+   background: rgb(247, 221, 221);
    }
 
 .bg-green {
    background: rgb(215, 247, 215);
-      }
+   }
 
  .card {
    padding: 15px 20px ;
-   
    margin-bottom: 20px;
    border-radius: 20px;
  }
@@ -87,11 +91,26 @@ a:visited {
  }
 
  .list {
-   padding: 0 15px;
+   padding: 15px;
+   margin-left: 25px;
+
 }
 
 .list li {
    color: rgb(131, 110, 110);
+}
+
+.table {
+   width: 100%;
+   margin-left: 15px;
+}
+
+.table td {
+padding: 15px;
+}
+
+.table td:nth-child(1) {
+   font-size: 16px large;
 }
 
 .link-list {
